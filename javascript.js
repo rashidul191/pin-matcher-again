@@ -53,3 +53,7 @@ function submtiHandle() {
     pinNoMatch.style.display = "block";
   }
 }
+
+// set year 
+var setTime = new Date()
+document.querySelector("#year").innerText = setTime.getFullYear()
